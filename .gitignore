@@ -1,0 +1,34 @@
+# Python 编译产物
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 虚拟环境
+.venv/
+venv/
+env/
+ENV/
+
+# PyCharm / JetBrains
+.idea/
+*.iml
+
+# 爬虫相关
+*.log
+cookies.txt
+data/
+output/
+
+# 打包与缓存
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# 系统文件
+Thumbs.db
+desktop.ini
+.DS_Store
